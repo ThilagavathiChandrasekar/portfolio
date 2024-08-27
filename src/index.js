@@ -10,3 +10,5 @@ root.render(
   </BrowserRouter>
 );
 
+//"home": "https://ThilagavathiChandrasekar.github.io/portfolio",
+
