@@ -127,10 +127,12 @@
     }
     .hero-connect{
         background: linear-gradient(264deg, #DA7C25 -5.09%, #B923E1 106.28%);
-        padding: 10px 20px;
+        padding: 11px 14px;
         border-radius: 50px;
         cursor: pointer;
         font-size: 17px;
+        width: 160px;
+        height: 51px;
     }
     .hero-resume{
         font-size: 17px;
@@ -141,6 +143,7 @@
     }
     .hero-action{
         margin-left: 8px;
+        gap: 10px;
     }
 
 }

@@ -54,11 +54,12 @@
 }
 .nav-mob-close{
     display: none;
+    
 }
 
 @media (max-width: 768px) {
     .navbar {
-        margin: 3px 50px;
+        margin: 8px 6px;
     }
 
     .nav-logo {
@@ -73,8 +74,8 @@
     .nav-mob-open {
         display: block;
         position: fixed;
-        right: 20px;
-        top: 20px;
+        right: 125px;
+        top: 33px;
         z-index: 3;
         width: 30px;
         cursor: pointer;
@@ -120,5 +121,7 @@
 
     .menu-opened .nav-mob-close {
         display: block;
+        width: 20px;
+        margin-right: 165px;
     }
 }

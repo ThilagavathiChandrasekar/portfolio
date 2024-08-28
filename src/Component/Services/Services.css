@@ -84,7 +84,7 @@
     }
     .services{
         margin: 0;
-        margin-top: 40px;
+        margin-top: -40px;
     }
     .services-format{
         display: flex;
@@ -102,6 +102,7 @@
 @media (max-width: 480px) {
     .services-skill {
       grid-template-columns: 1fr 1fr;
+      margin-top: -30px;
       gap: 50px;
     }
     .services-format {

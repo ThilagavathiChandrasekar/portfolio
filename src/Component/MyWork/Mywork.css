@@ -110,15 +110,19 @@
         background-color: rgb(38, 38, 38);
         color: white;
     } 
+    .hand-icon{
+        font-size: 20px;
+    }
     .project-img{
         height: 150px;
         width: 15rem;
     }
     .video-dec button{
         margin-left: 45px;
+        font-size: 17px;
     }
     .card-desc{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
     }
 }
