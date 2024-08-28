@@ -14,7 +14,7 @@ function App() {
       <About />
       <Services />
       <Mywork />
-      <Contact /> 
+      <Contact /> /
       <Footer />
     </div>
   );

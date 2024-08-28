@@ -3,6 +3,7 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { GrLinkBottom } from "react-icons/gr";
 import myresume from '../../assets/resume.pdf'
 const Hero =  () => {
     useEffect(()=>{
@@ -17,8 +18,8 @@ return (
         <h1 data-aos="zoom-in">I'm <span>Thilagavathi Chandrasear,</span> Web developer </h1>
         <div className="hero-action container">
             <div className="hero-connect" data-aos="fade-right"  data-aos-easing="linear" data-aos-duration="1000"><a href='#contact'  className='home-anchor'>Connect With Me</a></div>
-            <a href={myresume} download="Resume">
-            <div className="hero-resume" data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1000">My resume</div>
+            <a href={myresume} download="Resume" > 
+            <div className="hero-resume" data-aos="fade-left"  data-aos-easing="linear" data-aos-duration="1000">My resume<GrLinkBottom /></div>
             </a>
         </div>
 

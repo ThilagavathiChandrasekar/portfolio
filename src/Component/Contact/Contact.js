@@ -47,24 +47,24 @@ const Contact = () => {
           <p>I'm currently available to take on new projects, so feel free to send me  a message about anything that you want to me work on. You can contact anytime.  </p>
           <div className='contact-details'>
             <div className='contact-detail'>
-              <AiOutlineMail /><p>cthilagavathi2003@gmail.com</p>     
+              <AiOutlineMail className='contact-icon' /><p>cthilagavathi2003@gmail.com</p>     
             </div>
             <div className='contact-detail'>
-              <IoLocationOutline /><p>Velachery, Tamilnadu</p>                  
+              <IoLocationOutline className='contact-icon' /><p>Velachery, Tamilnadu</p>                  
             </div>
             <div className='contact-detail'>
-              <CiLinkedin /><p>Thilagavathi Chandrasekar</p>
+              <CiLinkedin className='contact-icon' /><p>Thilagavathi Chandrasekar</p>
             </div>
           </div>
         </div>
-        <div className='contact-right container'  data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div className='contact-right container'>
           <form onSubmit={sumbitMessage} id='form' className=' col-lg-4 col-sm-12 form'>
             <label>Your Name</label>
             <input type='text' placeholder='Enter your name...'  />
             <label>Your Email</label>
             <input type='text' placeholder='Enter your email...'  />
-            <label>Write your message here</label>
-            <textarea cols='30' rows='10' placeholder='Enter your message...'></textarea>
+            <label id='label'>Write your message here</label>
+            <textarea  placeholder='Enter your message...'></textarea>
             <button className='contact-submit'>{result}</button>
           </form>
         </div>

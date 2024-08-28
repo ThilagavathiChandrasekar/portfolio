@@ -5,6 +5,7 @@ import mywork_data from '../../assets/mywork_data';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { FaRegHandPointLeft } from "react-icons/fa";
+import { HiLink } from "react-icons/hi";
 import { Card } from "react-bootstrap";
 const MyWork= () => {
     useEffect(()=>{
@@ -26,7 +27,10 @@ return (
                                     <h3>{work.w_title}</h3>
                                     <hr />
                                     <p className='card-desc'>{work.w_desc}</p>
-                                    <a href={work.w_link}  target='_blank' rel="noopener noreferrer"><button> Click Here <FaRegHandPointLeft className='hand-icon' /></button></a>
+                                    <div className='link_button'>
+                                        <a href={work.w_link1}  target='_blank' rel="noopener noreferrer"><button> Repo Link <FaRegHandPointLeft className='hand-icon' /></button></a>
+                                        <a href={work.w_link2}  target='_blank' rel="noopener noreferrer"><button> Live Link <HiLink className='hand-icon' /></button></a>
+                                    </div>
                                 </Card.Title>
                             </Card> 
                         </div>
